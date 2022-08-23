@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+body p{
+    font-size: 18px;
+}
+body span{
+    font-size: 18px;
+}
+.banner1 button{
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+.banner1 button:hover{
+    color: gray;
+}
+button{
+    font-family: 'Open Sans';
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+}
+.container1{
+    background-image: url(./images/bg-hero-desktop.svg);
+    /* background-color: rgba(142, 176, 187, 0.6); */
+    background-color: rgba(51, 169, 202, 0.2);    
+ }
+.banner1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 0 50px ;
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.text1{
+    padding-top: 120px;
+}
+.bigcontainer{
+    padding: 100px 50px 130px 50px;
+}
+.banner3{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0 ,0 ,0.3);
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.banner4{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+.banner5{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+.text2, .text3, .text4{
+    padding-top: 80px;
+}
+.text2, .text4{
+    padding-right: 150px;
+}
+.text3{
+    padding-left: 100px;
+}
+.text2 p, .text3 p, .text4 p{ 
+    color: gray;
+}
+.mainfooter{
+    position: relative;
+}
+.banner6{
+    background-color: white;
+    padding: 20px 50px 40px 50px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+    max-width: 40%;
+    text-align: center;
+    position: absolute;
+    margin-top: -130px;
+    left: 35%;
+}
+#pinkbutton{
+    background-color: #FE019A; 
+    padding: 12px 40px;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+.text1 button{
+    background-color: #FE019A; 
+}
+#pinkbutton:hover, .text1 button:hover{
+    background-color: hsl(322, 100%, 66%);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    background-color: hsl(192, 100%, 9%);
+    padding: 100px 50px 50px 50px;
+    color: white;
+    margin: 0;
+    margin-top: -50px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+h3{
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+#logowhite{
+    filter: invert(1);
+}
+.line1 a{
+    padding-left: 20px;
+    font-size: 14px;
+}
+.line1 p{
+    padding-left: 40px;
+    font-size: 14px;
+}
+.line1 a:hover{
+    text-decoration: none;
+}
+.line1 span{
+    font-size: 14px;
+}
+.images img{
+    padding-right: 20px;
+}
+.images img:hover{
+    filter: invert(18%) sepia(93%) saturate(5652%) hue-rotate(316deg) brightness(102%) contrast(109%);
+}
